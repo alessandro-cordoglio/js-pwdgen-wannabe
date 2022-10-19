@@ -18,5 +18,5 @@ const fav_color= prompt("Inserisci il tuo colore preferito");
 
 const generated_password= `${user_name}${user_surname}${fav_color}`;
 /* console.log(generated_password) */
-document.getElementById('generated_psw').innerHTML="La tua password generata è: " + generated_password;
+document.getElementById('generated_psw').innerHTML="La tua password generata è: " + `<b> ${generated_password} </b>`;
 
